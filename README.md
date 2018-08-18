@@ -12,6 +12,7 @@ Tramite l'interfaccia può: muoversi, spostare la visuale della telecamera, calc
 ##### Strumenti utilizzati:
   - Raspberry Pi 3 con Raspbian.
   - Node.js .
+  - Bootstrap.
   - MJPG Streamer (Per lo Stream della Webcam).
   - Raspberry Pi Official Camera Module V2 8Mp.
   - L298N Dual H-Bridge Motor.
@@ -50,6 +51,7 @@ Through the interface can: move, move the camera view, calculate the distance fr
 ##### Tools used:
  - Raspberry Pi 3 with Raspbian.
   - Node.js .
+  - Bootstrap.
   - MJPG Streamer (For the Webcam Stream).
   - Raspberry Pi Official Camera Module V2 8Mp.
   - L298N Dual H-Bridge Motor.
