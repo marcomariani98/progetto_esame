@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body {
+	background: linear-gradient(to bottom right, #355fa3, #6c0087);
+    height: 100%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.button{
+  
+	background-color: rgba(255, 255, 255,0.6);
+  border: 3px solid;
+  border-color: rgba(151, 27, 252,0.8);
+  border-radius: 100%;
+  align-items: center;
+  
+
+}
+.button:hover{
+	
+  background-color: rgba(196, 194, 198,0.8);
+  border-color: #474AFF;
+	
+}
+span{
+  align-items: center;
+  color:#a100ff;
+}
+span:hover{
+color: rgba(102, 104, 234,0.9);
+}
+
+.color-span{
+color: rgba(102, 104, 234,0.9);
+}
+
+.button-h{
+  border: 3px solid;
+  border-radius: 100%;
+  background-color: rgba(196, 194, 198,0.8);
+  border-color: #474AFF;
+}
+.span-h{
+ align-items: center;
+ color: rgba(102, 104, 234,0.9);
+}
+.glyphicon {
+    font-size: 50px;
+}
+.controlli{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.stream{
+	 margin: auto;
+	 border: 3px solid;
+	 border-color: rgba(151, 27, 252,0.8);
+	 background-color:#f2f2f2;
+	 border-radius: 25 px;
+	 width: 640px;
+	 height: 480px;
+	 padding:3px;
+	 -webkit-box-shadow: 0px 0px 110px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 110px 0px rgba(0,0,0,1);
+box-shadow: 0px 0px 110px 0px rgba(0,0,0,1);
+	 
+}
+table{
+	margin:auto;
+}
+p{
+  margin: auto;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  color: #fcfcfc;
+  text-shadow: 6px 5px 11px rgba(0,0,0,0.61);
+  width: 50%;
+}
+
+
+    

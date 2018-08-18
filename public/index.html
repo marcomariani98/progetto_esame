@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+    <div class="stream">
+        <script>document.write('<img id="stream" class="xform" src="' + location.protocol + '//' + location.hostname + ':8080/?action=stream">')</script>
+		</div>
+    <div class="controlli">  
+		<table>
+          <tr>
+             <td>&nbsp;</td>
+             <td><button type="button" class="button" id="avanti" ontouchstart="touchAva()" ontouchend="touchStop()" ontouchcancel="touchStop()"><span class="glyphicon glyphicon-arrow-up"></span></button></td>
+             <td>&nbsp;</td>
+           </tr>
+           <tr>
+             <td><button type="button" class="button" id="sinistra" ontouchstart="touchSin()" ontouchend="touchStop()" ontouchcancel="touchStop()"><span class="glyphicon glyphicon-arrow-left"></span></button></td>
+             <td>&nbsp;</td>
+             <td><button type="button" class="button" id="destra" ontouchstart="touchDes()" ontouchend="touchStop()" ontouchcancel="touchStop()"><span class="glyphicon glyphicon-arrow-right"></span></button></td>
+             </tr>
+           <tr>
+             <td>&nbsp;</td>
+             <td><button type="button" class="button" id="indietro" ontouchstart="touchInd()" ontouchend="touchStop()" ontouchcancel="touchStop()"><span class="glyphicon glyphicon-arrow-down"></span></button></td>
+             <td>&nbsp;</td>
+           </tr>
+     </table>
+     <br>
+     <br>
+     <br>
+     <table>
+        <tr>
+             <td><button type="button" class="button" onclick="servo_sinistra()"><span class="glyphicon glyphicon-triangle-left"> </span></button></td>
+             <td><button type="button" class="button" onclick="servo_centro()"><span class="glyphicon glyphicon-record"></span></button></td>
+             <td><button type="button" class="button" onclick="servo_destra()"><span class="glyphicon glyphicon-triangle-right"> </span></button></td>
+            </tr>
+         
+       </table>
+	  
+    </div>
+	 <p id="distanza">Test 123</p>
+   <br>
+	<div class="uscita">
+	 <button type="button" class="button" onclick="uscita()"><span class="glyphicon glyphicon-log-out"></span></button>
+  </div>
+         <script src="socket.io.js"></script>
+         <script src="socket.io.slim.js"></script>
+         <script src="jquery-3.3.1.min.js"></script>
+        <script src="client.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
