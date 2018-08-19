@@ -66,7 +66,7 @@ class gestoreMoto {
     destra() {
     
         motori[0].reverse(255);
-		    motori[1].forward(255);
+	motori[1].forward(255);
         
         console.log("OUT: Movimento a Destra.");
 
